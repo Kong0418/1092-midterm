@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.roots{
+    overflow: hidden;}
+
+.r-navbar-item{
+    height: 135px;
+    padding: 0;
+    background-color: rgb(0,0,0.83);
+}
+
+.r-navbar-item > nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.r-navbar-item > nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+    box-sizing: border-box;
+    font-family:風體;
+}
+
+.r-navbar-item > nav > a:hover {
+    color: #222222;
+    background-color: white;
+    font-family:風體;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.r-button {
+    background-color: rgb(0,0,0.83);
+}
+
+.r-button > button {
+    border: none;
+}
+
+.r-button > button > span {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family:風體;
+}
